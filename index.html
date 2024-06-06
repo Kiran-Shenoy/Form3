@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My form</title>
+    </head>
+
+    <body>
+        <form action="file.html">
+
+            <fieldset>
+                <legend>Personal Details</legend><br>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" required  placeholder="eg.Kiran"><br><br><br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" required   placeholder="eg.Shenoy"><br><br><br>
+                <label for="age">Age</label>
+                <input type="text"  required  id="age"><br><br><br>
+                <label for="email">Email</label>
+                <input type="email"  required id="email"><br><br><br>
+                <label for="dob">DOB</label>
+                <input type="date" id="dob"><br><br><br>
+            </fieldset>
+
+             <br><br>
+            <fieldset>
+                <legend>Education Details</legend><br>
+                <label for="">Department</label><br><br>
+
+                <input type="radio" name="dept" id="cs">
+                <label for="cs">CSE</label>
+
+                <input type="radio" name="dept" id="ec">
+                <label for="ec">ECE</label>
+                <input type="radio" name="dept" id="civil">
+                <label for="civil">CIVIL</label>
+                <input type="radio" name="dept" id="mech">
+                <label for="mech">MECH</label>
+            </fieldset>
+             <br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
